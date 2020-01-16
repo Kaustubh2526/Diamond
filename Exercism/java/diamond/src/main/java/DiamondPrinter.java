@@ -11,6 +11,7 @@ class diamPrinter {
         }
         else{
             int length = a-'A'+1;
+            System.out.println("hello");
             String[] storage = new String[length];
             String temp="";
             for(int i=0;i<length-1;i++){
